@@ -1,0 +1,67 @@
+
+
+
+body{
+    background-color:rgba(154, 154, 239, 0.132);
+}
+
+
+p{
+    color:white;
+}
+.card{
+    background-image: url("628500.png");
+   
+    background-attachment: fixe
+
+
+    body{
+        background-color:rgba(154, 154, 239, 0.132);
+    }
+    
+    
+    p{
+        color:white;
+    }
+    .card{
+        background-image: url("https://i.ibb.co/L9fkbwB/628500.png");
+       
+        background-attachment: fixed;
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    h4{
+        color:white;
+    }
+    
+    h3{
+        color:white;
+    }
+    option{
+        color:black;
+    }
+    
+    d;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+hr{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgb(255, 255, 255);
+}
+h4{
+    color:white;
+}
+
+h3{
+    color:white;
+}
+option{
+    color:black;
+}
+
