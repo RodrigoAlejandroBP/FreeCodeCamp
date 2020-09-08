@@ -1,0 +1,32 @@
+.container{
+  text-align: center;
+
+  display: grid;
+  background-color:rgb(255, 255, 255);;
+}
+ img {
+   max-width: 30%;
+   display: block;
+   height: auto;
+   margin: 0 auto 0;
+   
+ }
+ 
+ #img-div {
+   padding: 10px;
+   margin: 0;
+  
+ }
+li{
+  text-align:left;
+}
+
+
+ h1{
+    color:rgba(219, 14, 14, 0.799)
+ }
+ @media (max-width: 460px) {
+   #img-caption {
+     font-size: 1.4rem;
+   }
+ }
