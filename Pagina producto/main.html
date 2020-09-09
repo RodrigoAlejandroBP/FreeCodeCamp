@@ -1,0 +1,136 @@
+
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+      <title>Formulario</title>
+  </head>
+  <body>
+      <div id="page-wrapper">
+      <header id="header">
+     
+        <nav id="nav-bar">
+            
+          <img class="logo" style="width:10%; padding:10px;"
+            id="header-img"
+            src="https://www.pcspecialist.es/images/landing/nvidia/super/rtx-logo.png"
+            alt="Logo de nvidia"
+          />
+        
+          <ul>
+            <li><a class="nav-link" href="#hola" style="color:white; font-size:23px">Producto</a></li>
+            <li><a class="nav-link" href="#hola2" style="color:white ; font-size:23px">Rendimiento Extremo</a></li>
+            <li><a class="nav-link" href="#pricing" style="color:white ; font-size:23px">Precios</a></li>
+          </ul>
+        </nav>
+      </header>
+    
+      <div class="container">
+
+   
+      <section id="hero">
+
+        <h2 style="color:white; text-shadow:3px 4px black; " >Suscribete para novedades!</h2>
+        <br><br><br>
+        <form id="form" action="">
+          <input
+            name="email"
+            id="email"
+            type="email"
+            placeholder="Ingresa tu email"
+            required
+          />
+          <h1 id="hola"></h1>
+          <input id="submit" type="submit" value="Suscribirse " class="btn" />
+        </form>
+
+
+      </section>
+      <br>
+      <div class="container">
+    
+        <section id="Producto" style="text-align: justify;">
+          Hace dos años, sin pandemias y en un GamesCom presencial, NVIDIA presentaba a bombo y platillo su arquitectura Turing y sus gráficas de la familia RTX 2000. Comenzaba la era del raytracing y de un gaming más ambicioso (y caro) que nunca, y durante todo este tiempo esa familia ha demostrado -con su evolución con los modelos SUPER- que esta firma sigue (de momento) marcando el ritmo en este segmento.
+          <h1 id="hola2"></h1>
+          En NVIDIA no se han dormido en los laureles, y hoy presentan por fin la esperada evolución de la arquitectura Turing. Se llama Ampere, y llega con mejoras notables en todos los apartados. Para demostrarlo tenemos con nosotros las nuevas NVIDIA GeForce RTX 3070, RTX 3080 y RTX 3090, unas gráficas absolutamente bestiales que más o menos doblan los rendimientos de sus antecesoras con precios más bajos que los de sus predecesoras.
+        </section>
+      <br>
+        <section id="Rendimiento" style="text-align:center;">
+          <iframe  id="video" width="560" height="315" src="https://www.youtube.com/embed/S-BlG4h7TyQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        <br><br>
+        <section style="text-align: justify;">
+          Una de las grandes incógnitas con las nuevas gráficas de la familia Ampere era si NVIDIA mantendría esa línea, pero hay buenas noticias: los precios de estas nuevas gráficas son sensiblemente menores que los de sus antecesoras. Así:
+<br><br>
+          <ol>
+            <li>NVIDIA GeForce RTX 3070: 519 euros, estará disponible en octubre.</li>
+            <li>
+              NVIDIA GeForce RTX 3080: 719 euros, estará disponible el 17 de septiembre.</li>
+            <li>NVIDIA GeForce RTX 3090: 1.549 euros, estará disponible el 24 de septiembre.</li>
+          </ol>
+
+
+Estos precios son como decimos llamativos cuando las Founders' Edition de NVIDIA para las RTX 2000 fueron superiores: la 2070 costó 599 dólares en esa edición (las 3070 se han lanzado a 499 dólares), y la RTX 2080 799 dólares (por los 699 dólares de las RTX 3080).
+
+Si no hay sorpresas, estaremos ante unas gráficas que llegan a doblar el rendimiento de sus antecesoras en algunos escenarios y lo hacen manteniendo o incluso reduciendo el precio con el que aparecieron aquellas.
+        </section>
+        <section id="pricing">
+          <div class="product" id="rtx-3070">
+            <div class="level">Nvidia RTX 3070</div>
+            <h2> 519 euros</h2>
+            <ol>
+              <li>Nucleos NVIDIA CUDA 5888.</li>
+              <li>Frecuencia (GHz) 1.73.</li>
+              <li>Memoria Estándar GDDR6x de 8 GB</li>
+              <li>Ancho de memoria 256 bits.</li>
+            </ol>
+            <button class="btn">Seleccionar</button>
+          </div>
+
+          <div class="product" id="rtx-3080">
+            <div class="level">Nvidia RTX 3080</div>
+            <h2> 719 euros</h2>
+            <ol>
+              <li>Nucleos NVIDIA CUDA 8704.</li>
+              <li>Frecuencia (GHz) 1.171.</li>
+              <li>Memoria Estándar GDDR6x de 10 GB.</li>
+              <li>Ancho de memoria 320bits..</li>
+            </ol>
+            <button class="btn">Seleccionar</button>
+          </div>
+          <div class="product" id="rtx-3090">
+            <div class="level">Nvidia RTX 3090</div>
+            <h2>1.549 euros</h2>
+            <ol>
+              <li>Nucleos NVIDIA CUDA 10496.</li>
+              <li>Frecuencia (GHz) 1.70</li>
+              <li>Memoria Estándar GDDR6x de 24 GB</li>
+              <li>Ancho de memoria 384 bits.</li>
+            </ol>
+            <button class="btn">Seleccionar</button>
+          </div>
+        </section>
+        
+      </div>
+    </div>
+  </div>
+    
+  </body>
+  <footer class="page-footer font-small blue">
+  
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">© 2020 Copyright:
+        <a href="https://github.com/RodrigoAlejandroBP">Github RodrigoAlejandroBP </a>
+      </div>
+      <!-- Copyright -->
+    
+    </footer>
+  </html>
