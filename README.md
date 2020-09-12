@@ -9,23 +9,23 @@ Me propuse el reto de terminar el bootcamp en menos de dos semanas, aquí dejare
 
 ## 1.- Página tributo 
 
--https://codepen.io/rodrigoalejandrobp/pen/dyMmrmG
+-https://codepen.io/rodrigoalejandrobp/full/dyMmrmG
 
 ## 2.- Página formulario
 
--https://codepen.io/rodrigoalejandrobp/pen/MWyQOeZ
+-https://codepen.io/rodrigoalejandrobp/full/MWyQOeZ
 
 
 ## 3.- Página producto landing page
 
--https://codepen.io/rodrigoalejandrobp/pen/WNwMaJj
+-https://codepen.io/rodrigoalejandrobp/full/WNwMaJj
 
 ## 4.- Página documentación técnica
 
--https://codepen.io/rodrigoalejandrobp/pen/eYZMQex
+-https://codepen.io/rodrigoalejandrobp/full/eYZMQex
 
 
 ## 5.- Página portafolio
 
--https://codepen.io/rodrigoalejandrobp/pen/OJNvqEx
+-https://codepen.io/rodrigoalejandrobp/full/OJNvqEx
 
