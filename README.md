@@ -4,8 +4,8 @@ Me propuse el reto de terminar el bootcamp en menos de dos semanas, aquí dejare
 
 -Archivos, y soluciones de freecodecamp HTML,CSS,JS
 
-#Actualización.
-Reto terminado en orden de proyectos 
+(Faltan fotos y actualizacion de textos para los archivos txt a html)
+#Reto terminado en orden de proyectos 
 
 ## 1.- Página tributo 
 
