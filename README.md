@@ -4,7 +4,10 @@ Me propuse el reto de terminar el bootcamp en menos de dos semanas, aquí dejare
 
 -Archivos, y soluciones de freecodecamp HTML,CSS
 
-(Faltan fotos y actualizacion de textos para los archivos txt a html)
+Certificado
+https://www.freecodecamp.org/certification/fcc6dfc92bc-bf67-45d9-8e28-dc18f5b71c97/responsive-web-design
+
+
 #Reto terminado en orden de proyectos 
 
 ## 1.- Página tributo 
