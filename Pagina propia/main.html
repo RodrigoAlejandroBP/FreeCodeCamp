@@ -1,0 +1,128 @@
+
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+      <link href="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" >
+  <link rel="stylesheet" href="styles.css">
+      <title>Rodrigo Bravo </title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="menu-icon">
+         <i class="fa fa-bars fa-2x"></i>
+      </div>
+      <div class="logo">
+        <p> WebDeveloper</p>
+      </div>
+      <div class="menu">
+         <ul>
+            <li><a href="#welcome-section">Home</a></li>
+            <li><a href="#">Acerca de mi</a></li>
+            <li><a href="#projects">Mis trabajos</a></li>
+            <li><a href="#profile-link">Contactarme</a></li>
+         </ul>
+      </div>
+   </nav>
+
+    <header class="welcome-section" id="welcome-section" style="height: 100vh;">
+  
+        <h1 class="titulo" > 
+         <p>
+           
+           Hey, soy Rodrigo Bravo estudiante de cuarto año en la Universidad Catolica del Maule
+        </p>
+        </h1>
+
+   </header>
+
+   <div class="proyectos" id="projects" style="padding: 100px 0px 100px 0px;">
+        <div class="card-deck project-tile">
+              <div class="card">
+                <img class="card-img-top" style="height: 270px;"  src="https://i.ibb.co/nDYNcpX/Captura2.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Página formulario</h5>
+                  <p class="card-text">Esta es la página hecha para un producto según los tutoriales de freecodecamp.</p>
+                 <a href="https://codepen.io/rodrigoalejandrobp/pen/WNwMaJj">Proyecto en codepen</a>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" style="height: 270px;"  src="https://i.ibb.co/VHzYW4P/Captura3.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Página técnica</h5>
+                  <p class="card-text">Esta es la página hecha para un producto según los tutoriales de freecodecamp.</p>
+                  <a href="https://codepen.io/rodrigoalejandrobp/pen/eYZMQex">Proyecto en codepen</a>
+                </div>
+              </div>
+              <div class="card">
+            
+
+                <img class="card-img-top" style="height: 270px;"  src="https://i.ibb.co/YLk1t4q/Captura4.png" alt="Card image cap">
+                <div class="card-body" ">
+                  <h5 class="card-title">Página de un formulario</h5>
+                  <p class="card-text">Esta es la página hecha para un producto según los tutoriales de freecodecamp.</p>
+                  <a href="https://codepen.io/rodrigoalejandrobp/pen/MWyQOeZ">Proyecto en codepen</a>
+                </div>
+              </div>
+              
+        </div>
+    <br><br>
+       
+    </div>
+
+</div>
+    </body>
+
+    <script>
+      $(document).ready(function() {
+        $(".menu-icon").on("click", function() {
+              $("nav ul").toggleClass("showing");
+        });
+  });
+
+  // Scrolling Effect
+
+  $(window).on("scroll", function() {
+        if($(window).scrollTop()) {
+              $('nav').addClass('black');
+        }
+
+        else {
+              $('nav').removeClass('black');
+        }
+  })
+    </script>
+      <footer class="page-footer font-small red ">
+  
+
+      <section id="footer">
+        <div class="container">
+       
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+              <ul class="list-unstyled list-inline social text-center">
+                <h4 style="color:white;"> Sigueme en mis redes sociales </h4>
+                <a id="profile-link" 
+                href="https://github.com/RodrigoAlejandroBP" 
+                target="_blank"
+                >Github</a>
+                <li class="list-inline-item"><a href=""><i class="fa fa-facebook"></i></a></li>
+                <li class="list-inline-item"><a href=""><i class="fa fa-twitter"></i></a></li>
+                <li class="list-inline-item"><a href=""><i class="fa fa-instagram"></i></a></li>
+                <li class="list-inline-item"><a href=""><i class="fa fa-google-plus"></i></a></li>
+                <li class="list-inline-item"><a href="" target="_blank"><i class="fa fa-envelope"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        </section> 
+        </footer> 
+</html>
