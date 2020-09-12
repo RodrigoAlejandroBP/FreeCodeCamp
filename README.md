@@ -7,7 +7,7 @@ Me propuse el reto de terminar el bootcamp en menos de dos semanas, aquí dejare
 #Actualización.
 Reto terminado en orden de proyectos 
 
-# 1.- Página tributo 
+## 1.- Página tributo 
 
 -https://codepen.io/rodrigoalejandrobp/pen/dyMmrmG
 
