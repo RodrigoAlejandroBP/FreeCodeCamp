@@ -11,7 +11,7 @@
 
 
 .proyectos{
-  background-color: rgb(67, 63, 127);
+  background-color: rgb(25, 30, 116);
   height: 100vh;
 }
 
@@ -220,7 +220,7 @@ nav ul li a {
   }
   .proyectos{
 
-    height:1500px ;
+    height:1600px ;
   }
 }
 
