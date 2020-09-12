@@ -1,4 +1,4 @@
-# FreeCodeCamp
+# Introduction to the Responsive Web Design Projects
 
 Me propuse el reto de terminar el bootcamp en menos de dos semanas, aquí dejare el proceso y mis soluciones.
 
